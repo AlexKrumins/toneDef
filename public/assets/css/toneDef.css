@@ -1,0 +1,288 @@
+* {
+
+    font-family: 'Roboto', sans-serif;
+/*     color: #96DDFF;
+ */}
+
+body {
+    background-color: #343A40;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.loginText {
+    color: #96DDFF;
+}
+
+h1 {
+    color: #343A40;
+    text-align: center;
+    font-size: calc(150% + 2.5vw);
+    text-shadow:
+    -1px -1px 0 #F29559,
+    1px -1px 0 #F29559,
+    -1px 1px 0 #F29559,
+    1px 1px 0 #F29559;
+    color: #343A40;  
+}
+
+.form-group,
+.form-check-label {
+    color: #eeeeee;
+}
+
+#frontPageH1 {
+    color: #343A40;
+    text-align: center;
+    font-size: calc(150% + 2.5vw);
+    text-shadow:
+    -1px -1px 0 #96DDFF,
+    1px -1px 0 #96DDFF,
+    -1px 1px 0 #96DDFF,
+    1px 1px 0 #96DDFF;
+    color: #343A40; 
+}
+
+.frontPageH1{
+    color: #343A40;
+    text-align: center;
+    font-size: calc(150% + 2.5vw);
+    text-shadow:
+    -1px -1px 0 #96DDFF,
+    1px -1px 0 #96DDFF,
+    -1px 1px 0 #96DDFF,
+    1px 1px 0 #96DDFF;
+    color: #343A40; 
+}
+
+#spotifyBtn {
+    background-color: #96DDFF;
+}
+
+
+#contactBtn {
+    background-color: #96DDFF;
+}
+
+.contactForm {
+    color: #96DDFF;
+}
+
+.songContainer {
+    margin-top: 5%;
+}
+
+#newsPage {
+
+  margin-bottom: 7%;
+}
+
+#tourHeader {
+    color: #343A40;
+    text-align: center;
+    font-size: calc(150% + 2.5vw);
+    text-shadow:
+    -1px -1px 0 #96DDFF,
+    1px -1px 0 #96DDFF,
+    -1px 1px 0 #96DDFF,
+    1px 1px 0 #96DDFF;
+    color: #343A40; 
+}
+
+h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+#lyrics-div {
+    height: 400px;
+    color: #96DDFF;
+    width: 100%;
+    border: solid thick  #96DDFF;
+    overflow: auto;
+    font-size: calc(100% + 0.6vw);
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 0;
+    margin-bottom: 5%;
+    background-color: #343A40;
+}
+
+.navbarBackground {
+    background-color: #F29559;
+}
+
+#front-page {
+    padding-bottom: 50%;
+}
+
+.navbar-header {
+    margin: 0;
+    margin-top: -33px;
+    border-top: #93D3FB solid thick;
+    border-bottom: #93D3FB solid thick;
+}
+
+.nav-link,
+.display-1,
+.lead {
+    color: #93D3FB;
+}
+
+#submitButton {
+    border:#343A40 solid thin;
+}
+
+#artistName {
+    color: #96DDFF;
+}
+
+#artistNameTour {
+    color: #96DDFF;
+}
+
+.songHeader,
+.albumHeader,
+.albumData {
+    width: 50%;
+}
+
+.songHeader,
+.albumHeader,
+.artistHeader {
+    background-color: #96DDFF;
+    color: #343A40;
+}
+
+#musicVideoContainer,
+#tourPage {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.tour-link {
+    color: #96DDFF;
+    font-size: calc(100% + 0.6vw);
+    text-align: center;
+}
+
+#tourDate {
+    font-size: calc(100% + 0.3vw);
+    color: #96DDFF;
+};
+
+
+#photosPage {
+    text-align: center;
+}
+
+.artist-photo {
+    margin: 7%;
+}
+
+.wikiResults {
+    font-family: 'Copse', serif;
+    font-size: 28px;
+}
+
+#results1 {
+    color: #96DDFF;
+}
+
+#results3 {
+    padding-bottom: 5%;
+}
+
+#musicButtons {
+    padding: 0 25%;
+    background-color: #F29559; 
+    text-align: center;
+    color: #343A40;
+
+}
+
+.fa {
+    font-size: calc(100% + 0.9vw);
+}
+
+.footer {
+    z-index: 99;
+    border-top: solid thick  #96DDFF;
+    background-color: #F29559;
+    color: #343A40;
+}
+
+.transition {
+    background-color: #96DDFF;
+    height: 100vh;
+    margin-right: 1em;
+    z-index: 2;
+}
+.homeTransition {
+    background-color: #96DDFF;
+    height: 100vh;
+    margin-right: 1em;
+    z-index: 2;
+}
+
+.photosTransition {
+    background-color: #96DDFF;
+    height: 100vh;
+    z-index: 2;
+    margin-right: 1em;
+}
+
+.newsTransition {
+    background-color: #96DDFF;
+    height: 100vh;
+    z-index: 2;
+    margin-right: 1em;
+}
+
+.contactTransition {
+    background-color: #96DDFF;
+    height: 100vh;
+    margin-right: 1em;
+    z-index: 2;
+}
+
+#contactPage {
+    margin-bottom: 7%;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+  }
+
+  footer {
+    max-width: 100%;
+    /* Colorizing used from https://cssgradient.io/ */
+    background: rgb(242, 149, 89);
+/*     background: radial-gradient(circle, rgb(242, 149, 89) 49%, rgba(0,0,0,1) 100%);
+ */}
+
+@media only screen and (min-width: 992px){
+    .artist-photo {
+        margin-bottom: 10%;
+    }
+    #bottom-margin-photos {
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 480px){
+    #bottom-margin-photos {
+        margin-bottom: 10%;
+    }
+    .artist-photo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
