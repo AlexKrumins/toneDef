@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '4058085b0d804e24ad86e4ee5217eb4a'; // Your client id
 var client_secret = 'cf62fedc5f1e4e728d00afdd97700539'; // Your secret
-var redirect_uri = 'https://evening-tundra-78432.herokuapp.com/'; // Your redirect uri
+var redirect_uri = 'http://localhost:8888/'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
