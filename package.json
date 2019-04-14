@@ -1,22 +1,13 @@
 {
-  "name": "toneDef",
-  "version": "1.0.0",
-  "description": "This project contains basic demos showing the different OAuth 2.0 flows for [authenticating against the Spotify Web API](https://developer.spotify.com/web-api/authorization-guide/).",
-  "main": "app.js",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AlexKrumins/toneDef.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AlexKrumins/toneDef/issues"
-  },
-  "homepage": "https://github.com/AlexKrumins/toneDef#readme"
+  "author": "Spotify",
+  "name": "web-api-auth-examples",
+  "description": "Basic examples of the Spotify authorization flows through OAuth 2",
+  "version": "0.0.2",
+  "dependencies": {
+    "cookie-parser": "1.3.2",
+    "express": "~4.16.0",
+    "cors": "^2.8.4",
+    "querystring": "~0.2.0",
+    "request": "~2.83.0"
+  }
 }
