@@ -146,7 +146,9 @@ app.get('/refresh_token', function (req, res) {
 
 console.log('Listening on 8888');
 app.listen(8888);
-var https = require('https');
-https.createServer(app).listen(6666);
+var server = require('http').createServer();
+var port = process.env.PORT || 6666;
 
-
+server.listen(port, function() {
+  console.log('Listening on ' + port);
+});
