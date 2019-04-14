@@ -1,1 +1,1 @@
-web: node app.js
+web: node __dirname/pulbic app.js
